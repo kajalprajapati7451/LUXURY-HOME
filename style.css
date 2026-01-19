@@ -326,6 +326,15 @@
                 display: block;
             }
             
+            .logo {
+                font-size: 30px;
+            }
+            
+            .logo i {
+                font-size: 26px;
+                margin-right: 8px;
+            }
+            
             nav ul {
                 position: fixed;
                 top: 70px;
@@ -380,6 +389,15 @@
             
             .hero p {
                 font-size: 18px;
+            }
+            
+            .logo {
+                font-size: 20px;
+            }
+            
+            .logo i {
+                font-size: 22px;
+                margin-right: 6px;
             }
             
             .section-title h2 {
