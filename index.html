@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Project | Coming Soon at Viman Nagar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Colored Navbar -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <i class="fas fa-crown"></i>
+                    Supreme<span>Project</span>
+                </a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav>
+                    <ul id="navMenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#map">Location</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Supreme <span>Project</span> Coming Soon</h1>
+            <p>Experience luxury living at its finest in the heart of <span class="highlight">Viman Nagar, Pune</span>. A premium residential project with world-class amenities and unparalleled design.</p>
+            <p>Register now to get exclusive pre-launch offers and be among the first to experience this extraordinary development.</p>
+            
+            <a href="#contact" class="cta-button">Register Your Interest</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Register Your Interest</h2>
+                <p>Fill out the form below and our team will contact you with more details</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="interestForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Property Interest</label>
+                            <select id="interest" class="form-control">
+                                <option value="">Select preferred property type</option>
+                                <option value="2bhk">2 BHK Apartment</option>
+                                <option value="3bhk">3 BHK Apartment</option>
+                                <option value="4bhk">4 BHK Apartment</option>
+                                <option value="penthouse">Penthouse</option>
+                                <option value="notsure">Not Sure Yet</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget Range (₹)</label>
+                            <select id="budget" class="form-control">
+                                <option value="">Select your budget range</option>
+                                <option value="1-2cr">1 Cr - 2 Cr</option>
+                                <option value="2-3cr">2 Cr - 3 Cr</option>
+                                <option value="3-4cr">3 Cr - 4 Cr</option>
+                                <option value="4-5cr">4 Cr - 5 Cr</option>
+                                <option value="5+cr">5 Cr +</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Tell us about your requirements, preferred timeline, or any specific needs"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit Registration</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <div class="section-title">
+                <h2>Prime Location in Viman Nagar</h2>
+                <p>Supreme Project is strategically located in one of Pune's most sought-after neighborhoods</p>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.696233697543!2d73.9077197749884!3d18.543444382557672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c13b8d409f0f%3A0xfb6a9b9b3504b0e5!2sViman%20Nagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1687777782054!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>This website is for informational purposes only. Details and specifications are subject to change without prior notice. Images are for representation purpose only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
